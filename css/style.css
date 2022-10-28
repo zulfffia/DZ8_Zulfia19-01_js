@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background: url("../img/fon.jpg");
+    background-color: #000000;
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}
+.quotes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.inner-quotes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    text-align: center;
+    min-height: 310px;
+    padding: 0 25px;
+    color: gray;
+    border-radius: 5px;
+    background-color: #000000;
+    border: 10px solid #747474;
+    box-shadow: 3px 2px 86px 6px rgba(87, 87, 87, 0.9);
+}
+.inner-quotes-container p{
+    /*width: 500px;*/
+    font-size: 1.5rem;
+    color: #f5f5f5;
+}
+.inner-quotes-container h3{
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;
+}
+.quote-bth{
+    align-items: center;
+    gap: 130px;
+    display: flex;
+    padding-top: 25px;
+}
+.bth-info:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:0 0 20px #000000;
+    background-color: #ffffff;
+}
+.back:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:0 0 20px #000000;
+    border-radius: 200px;
+}
+.next:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:0 0 20px #000000;
+    border-radius: 200px;
+}
+.bth-info{
+    background-color: #fff;
+    color: #000000;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+#generate{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width: 1280px) {
+    .container{
+        width: 95%;
+    }
+}
+@media (max-width: 900px) {
+    .inner-quotes-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .inner-quotes-container p{
+        font-size: 1.2rem;
+    }
+    .inner-quotes-container h3{
+        font-size: 1.5rem;
+    }
+}
+
